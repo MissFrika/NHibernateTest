@@ -46,7 +46,37 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.DomainModel">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\NHibernate.DomainModel.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Test">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\NHibernate.Test.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Test.VisualBasic">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\NHibernate.Test.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.TestDatabaseSetup">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\NHibernate.TestDatabaseSetup.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.engine">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\nunit.engine.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.engine.api">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\nunit.engine.api.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="NUnit3.TestAdapter">
+      <HintPath>..\..\..\..\OneDrive\Visual Studio Projects\SharedLibraries\NHibernate-5.1.3-bin\Tests\NUnit3.TestAdapter.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
